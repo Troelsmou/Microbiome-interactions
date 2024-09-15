@@ -15,7 +15,7 @@ git clone (https://github.com/Troelsmou/Microbiome-interactions/edit/main/Mantel
 
 ## Usage
 
-The three scripts are supposed to be run interactively in an R session.
+The four scripts are supposed to be run interactively in an R session.
 
 ## Input files
 
