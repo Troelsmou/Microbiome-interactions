@@ -34,4 +34,4 @@ The three scripts are supposed to be run interactively in an R session.
 ![PlantUML diagram](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/Troelsmou/Microbiome-interactions/main/Mantel-test/diagram.puml)
 
 ## Runtime
-Typical runtime: X minutes
+Typical runtime: 10 minutes
