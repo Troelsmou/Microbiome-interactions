@@ -31,7 +31,7 @@ The three scripts are supposed to be run interactively in an R session.
 
 ## File relationships
 
-@startuml
+```@startuml
 file "Input File 1" as input1
 file "Input File 2" as input2
 file "Shared File" as shared
@@ -53,7 +53,7 @@ shared --> B
 shared --> C
 A --> C
 B --> D
-@enduml
+@enduml```
 
 ## Runtime
 Typical runtime: X minutes
