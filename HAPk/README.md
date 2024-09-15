@@ -27,9 +27,5 @@ Rscript --args "20220330_lotus_snps.csv" 100 "Reproduced" 8
 
 `Reproduced_cluster_result.csv` [Csv file with 100 kb windowed clustering R-squared values for 2-8 clusters and HAPk value]
 
-## File relationships
-
-![PlantUML diagram](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/Troelsmou/Microbiome-interactions/main/Mantel-test/diagram.puml)
-
 ## Runtime
 Typical runtime: 40 minutes
