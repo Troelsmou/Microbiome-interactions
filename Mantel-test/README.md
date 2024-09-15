@@ -1,6 +1,6 @@
 # Mantel-test
 
-This is the code for doing the mantel test for the paper.
+This is the code for doing the mantel test.
 
 ## Software Requirements
 
