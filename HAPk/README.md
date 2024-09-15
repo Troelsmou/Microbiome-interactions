@@ -4,7 +4,9 @@ This is the code for calculating the HAPk heuristic.
 
 ## Software Requirements
 
-The needed packages are listed in requirements.txt
+This script was tested with:  
+R==4.4.1  
+tidyverse==2.0.0
 
 ## Installation
 
