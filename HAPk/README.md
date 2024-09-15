@@ -1,4 +1,4 @@
-# HAPk calculation
+# HAPk
 
 This is the code for calculating the HAPk heuristic.
 
