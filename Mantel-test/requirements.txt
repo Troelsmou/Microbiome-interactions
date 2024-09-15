@@ -1,0 +1,5 @@
+# Main dependencies
+R==4.4.1
+vegan==2.6-8
+dplyr==1.1.4
+ggplot2==3.5.1
