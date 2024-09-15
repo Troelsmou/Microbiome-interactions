@@ -1,6 +1,6 @@
-# Mantel-test
+# HAPk calculation
 
-This is the code for doing the mantel test for the paper.
+This is the code for calculating the HAPk heuristic.
 
 ## Software Requirements
 
@@ -15,23 +15,21 @@ And then you can run the scripts.
 
 ## Usage
 
-The three scripts are supposed to be run interactively in an R session.
+```bash
+Rscript --args "20220330_lotus_snps.csv" 100 "Reproduced" 8
+```
 
 ## Input files
 
-`Lotus_accessions_location_2.csv` [Lotus accessions and their sampled longitude and latitude]  
-`lotusPop.csv` [Lotus accessions and their population membership]  
-`microbiomeSNPsExtended.csv` [Filtered microbiome gwas results]  
-`SNPs_to_generate_random_sets.txt` [List of SNPs fulfilling GWAS filtering criteria (close to or in a gene)]  
 `20220330_lotus_snps.csv` [Numeric SNP calls (on figshare)]
 
 ## Output files
 
-`fig_2j.pdf` [Histogram of mantel test null distribution with GWAS mantel score plotted as vertical line]
+`Reproduced_cluster_result.csv` [Csv file with 100 kb windowed clustering R-squared values for 2-8 clusters and HAPk value]
 
 ## File relationships
 
 ![PlantUML diagram](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/Troelsmou/Microbiome-interactions/main/Mantel-test/diagram.puml)
 
 ## Runtime
-Typical runtime: 10 minutes
+Typical runtime: 40 minutes
