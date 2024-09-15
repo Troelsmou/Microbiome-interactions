@@ -53,7 +53,8 @@ shared --> B
 shared --> C
 A --> C
 B --> D
-@enduml```
+@enduml
+```
 
 ## Runtime
 Typical runtime: X minutes
