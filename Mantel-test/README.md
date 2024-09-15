@@ -31,30 +31,7 @@ The three scripts are supposed to be run interactively in an R session.
 
 ## File relationships
 
-```@startuml
-file "Input File 1" as input1
-file "Input File 2" as input2
-file "Shared File" as shared
-
-rectangle "Layer 1" {
-  [Process A] as A
-  [Process B] as B
-}
-
-rectangle "Layer 2" {
-  [Process C] as C
-  [Process D] as D
-}
-
-input1 --> A
-input2 --> B
-shared --> A
-shared --> B
-shared --> C
-A --> C
-B --> D
-@enduml
-```
+![PlantUML diagram](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/Troelsmou/Microbiome-interactions/main/Mantel-test/diagram.puml)
 
 ## Runtime
 Typical runtime: X minutes
