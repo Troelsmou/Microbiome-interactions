@@ -1,0 +1,36 @@
+@startuml
+file "20220330_lotus_snps.csv" as snps
+file "microbiomeSNPsExtended.csv" as gwas
+file "SNPs_to_generate_random_sets.txt" as snpset
+file "Lotus_accessions_location_2.csv" as location
+
+rectangle "Pick_LD.R" as LD
+
+file "popo1.rds" as set1
+file "popo2.rds" as set2
+file "popo3.rds" as set3
+
+rectangle "Mantel_permuted.R" as mantel
+
+file "mantelNull.rds" as mynull
+
+rectangle "Plot_histogram.R" as plot
+
+file "fig_2j.pdf" as hist
+
+snps --> LD
+gwas --> LD
+LD --> set1
+LD --> set2
+LD --> set3
+set1 --> mantel
+set2 --> mantel
+set3 --> mantel
+gwas --> mantel
+snpset --> mantel
+snps --> mantel
+location --> mantel
+mantel --> mynull
+mynull --> plot
+plot --> hist
+@enduml
