@@ -1,26 +1,21 @@
-# Figure X: [Figure Title]
+# Mantel-test
 
-Brief description of the figure and its significance.
+This is the code for doing the mantel test for the paper.
 
 ## Software Requirements
 
-- Software 1 (version x.x.x)
-- Software 2 (version x.x.x)
-- Programming language (version x.x.x)
+The needed packages are listed in requirements.txt
 
 ## Installation
 
 ```bash
-git clone [subrepo URL]
-cd [subrepo directory]
-pip install -r requirements.txt
+git clone (https://github.com/Troelsmou/Microbiome-interactions/edit/main/Mantel-test)
+
 ```
 
 ## Usage
 
-```bash
-python script.py
-```
+The three scripts are supposed to be run interactively in an R session.
 
 ## Input files
 
@@ -36,13 +31,29 @@ python script.py
 
 ## File relationships
 
-```mermaid
-graph LR
-    A[input_file.txt] --> B[script1.py]
-    B --> C[intermediate_file.tmp]
-    C --> D[script2.py]
-    D --> E[output_file.csv]
-```
+@startuml
+file "Input File 1" as input1
+file "Input File 2" as input2
+file "Shared File" as shared
+
+rectangle "Layer 1" {
+  [Process A] as A
+  [Process B] as B
+}
+
+rectangle "Layer 2" {
+  [Process C] as C
+  [Process D] as D
+}
+
+input1 --> A
+input2 --> B
+shared --> A
+shared --> B
+shared --> C
+A --> C
+B --> D
+@enduml
 
 ## Runtime
 Typical runtime: X minutes
