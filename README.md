@@ -1,8 +1,8 @@
 # Microbiome-interactions
 
 This is the code repository for the paper "Microbiome interactions promote haplotype richness" published in XX journal.
-Here, all code for larger pipelines or making figures is available, as well as smaller input files.
-Each figure or pipeline have their own folder.
+Here, all custom code is available, as well as smaller input files.
+Each pipeline have their own folder.
 
 ## License
 
