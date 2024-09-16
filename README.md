@@ -14,6 +14,6 @@ If you use this code in your research, please cite:
 [citation information]
 
 ## Contact
-[Johan Quilbé] - [johanq@mbg.au.dk]
-[Troels Mouritzen] - [twm@mbg.au.dk]
+[Johan Quilbé] - [johanq@mbg.au.dk]  
+[Troels Mouritzen] - [twm@mbg.au.dk]  
 [Turgut Akyol] - [tya@mbg.au.dk]
