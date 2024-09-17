@@ -12,7 +12,7 @@ tidyverse==2.0.0
 
 Clone this repository.  
 Install R and Rstudio.  
-Install the packages in requirements.txt from cran.  
+Install the required packages from cran.  
 And then you can run the scripts.
 
 ## Usage
