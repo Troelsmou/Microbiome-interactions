@@ -11,7 +11,7 @@ tidyverse==2.0.0
 
 Clone this repository.  
 Install R and Rstudio.  
-Install the required packages.
+Install the required packages.  
 And then you can run the script.
 
 ## Usage
