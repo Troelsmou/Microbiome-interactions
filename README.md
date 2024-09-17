@@ -2,7 +2,7 @@
 
 This is the code repository for the paper "Microbiome interactions promote haplotype richness" published in XX journal.
 Here, all custom code is available, as well as smaller input files.
-Each pipeline have their own folder.
+Each script/set of scripts have their own folder.
 
 ## License
 
