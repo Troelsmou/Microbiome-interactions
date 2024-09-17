@@ -4,7 +4,7 @@ This is the code for filtering the raw GWAS output to the curated results presen
 
 ## Software Requirements
 
-R==4.4.1
+R==4.4.1  
 tidyverse==2.0.0
 
 ## Installation
