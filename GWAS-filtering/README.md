@@ -30,4 +30,4 @@ The script is supposed to be run interactively in an R session.
 
 
 ## Runtime
-Typical runtime: 10 minutes
+Typical runtime: 2 minutes
