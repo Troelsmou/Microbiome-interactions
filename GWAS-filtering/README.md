@@ -4,6 +4,7 @@ This is the code for filtering the raw GWAS output to the curated results presen
 
 ## Software Requirements
 
+This script was tested with:  
 R==4.4.1  
 tidyverse==2.0.0
 
@@ -11,7 +12,7 @@ tidyverse==2.0.0
 
 Clone this repository.  
 Install R and Rstudio.  
-Install the required packages.  
+Install the required packages from cran.  
 And then you can run the script.
 
 ## Usage
