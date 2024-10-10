@@ -18,7 +18,7 @@ And then you can run the scripts.
 ## Usage
 
 ```bash
-Rscript --args "20220330_lotus_snps.csv" 100 "Reproduced" 8
+Rscript Cluster_r2.R --args "20220330_lotus_snps.csv" 100 "Reproduced" 8
 ```
 
 ## Input files
