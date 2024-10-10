@@ -34,7 +34,7 @@ main <- function() {
   window_size <- as.integer(args[3])
   max_clusters <- as.integer(args[5])
   
-  snpfile <- read.csv(args[1])
+  snpfile <- read.csv(args[2])
   
   GM <- snpfile %>%
     select(1:2) %>%
