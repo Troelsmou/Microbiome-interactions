@@ -1,6 +1,6 @@
 # GWAS-filtering
 
-This is the code for filtering the raw GWAS output to the curated results presented in the paper.
+This is the code for filtering the raw GWAS output to the curated results presented in the paper, calculating the effective number of tests using the simpleM method, and the variance explained by each GWAS SNP on its associated trait.
 
 ## Software Requirements
 
