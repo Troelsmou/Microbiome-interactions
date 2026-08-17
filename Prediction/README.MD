@@ -34,15 +34,15 @@ The following arguments are only important if the additional, reduced SNP-set pr
 ## Example Usage
 
 ```bash
-Rscript Scripts/Predict.R --pheno 20260615_Lotus_ave_rep_family_iso_mds_rarefied_newformat.csv  \
-                           --prediction_trait Seed_length                                       \
-                           --GD Lotus_GD.csv                                                    \
-                           --n_rep 100                                                          \
-                           --n_fold 5                                                           \
-                           --output gBLUP_Prediction_Seed_length.csv                            \
-                           --sigfile Empty_sigfile.csv                                          \
-                           --gwas_trait Seed_length                                             \
-                           --n_random 0
+Rscript Scripts/Predict.R --pheno 20260615_Lotus_ave_rep_family_iso_mds_rarefied_newformat.csv \
+                          --prediction_trait Seed_length                                       \
+                          --GD Lotus_GD.csv                                                    \
+                          --n_rep 100                                                          \
+                          --n_fold 5                                                           \
+                          --output gBLUP_Prediction_Seed_length.csv                            \
+                          --sigfile Empty_sigfile.csv                                          \
+                          --gwas_trait Seed_length                                             \
+                          --n_random 0
 ```
 
 ## Outputs
