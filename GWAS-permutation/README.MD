@@ -12,20 +12,21 @@ This script is used for performing GWAS permutation in an adaptive way, that is,
 
 ## Arguments
 
-Arguments are:<br>
-    gemma_path (str): Path of the GEMMA executable.<br>
-    phenotype (str): Path of the phenotype file.<br>
-    snpfile (str): Path of the genotype file.<br>
-    accessions (str): Path of the accessions file.<br>
-    eigenvec (str): Path of the eigenvector file.<br>
-    eigenval (str): Path of the eigenvalue file.<br>
-    covariates (str): Path of the covariates file (Optional).<br>
-    temp_dir (str): Temporary directory for temporary, intermediate files.<br>
-    snp (str): The name of the SNP to be tested.<br>
-    output (str): Path of the output file.<br>
-    n_perm (list): Space separated list of integers specifying the number of permutations to perform.<br>
-    perm_stop (int): Number of times the association statistic must exceed the original
-        association statistic for the script to stop prematurely.
+Arguments are:
+
+gemma_path (str): Path of the GEMMA executable.<br>
+phenotype (str): Path of the phenotype file.<br>
+snpfile (str): Path of the genotype file.<br>
+accessions (str): Path of the accessions file.<br>
+eigenvec (str): Path of the eigenvector file.<br>
+eigenval (str): Path of the eigenvalue file.<br>
+covariates (str): Path of the covariates file (Optional).<br>
+temp_dir (str): Temporary directory for temporary, intermediate files.<br>
+snp (str): The name of the SNP to be tested.<br>
+n_perm (list): Space separated list of integers specifying the number of permutations to perform.<br>
+perm_stop (int): Number of times the association statistic must exceed the original
+association statistic for the script to stop prematurely.<br>
+output (str): Path of the output file.
 
 ## Outputs
 
@@ -46,6 +47,8 @@ python ./Scripts/Adaptive_GWAS_permutation.py                   \
     --snpfile 20260818_reproducibility_test_snpfile.csv         \
     --temp_dir ./TMP_DIR                                        \
     --snp SNP_1_20972639                                        \
+    --n_perm 10000 100000 1000000 10000000 100000000 1000000000 \
+    --perm_stop 100                                             \
     --output 20260818_reproducibility_test_1.SNP_1_20972639.permutation.csv
 ```
 
